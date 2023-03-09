@@ -49,3 +49,5 @@ async function fund(ethAmount) {
         })
     }
 }
+
+console.log("hi")
