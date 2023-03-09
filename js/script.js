@@ -34,6 +34,7 @@ async function connect() {
 async function fund(ethAmount) {
     console.log(`Funding with ${ethAmount}`)
     ethAmount = "1"
+
     if (typeof window.ethereum !== "undefined") {
         //provider / connection to the blockchain
         const provider = new ethers.providers.Web3Provider(window.ethereum)
